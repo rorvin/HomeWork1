@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <script>
+    //      1
+    
+       colors = {
+        ru: ['зеленый', 'красный', 'голубой'],
+        eng: ['green', 'red', 'blue'],
+    }
+    for (var i=0;i<colors.ru.length;i++){
+        console.log(colors.ru[i]+'-'+ colors.eng[i]);
+    }
+      
+      //      2
+      
+      
+        var obj = {
+        name: 'John',
+        lastname: 'Doe',
+        age: 20,
+        visited:['LA','Rome','Paris'],
+        city:'NY',
+//              myHere: function(){
+//              return this.visitedd;
+//          }
+    }; 
+//      obj.Here = function() {
+//          return this.visited;
+//      }
+//      console.log(obj.Here());
+      
+      for (var prop in obj){
+        if (prop == 'visitedd'){
+            var x = obj[prop];
+        }
+    }
+    if(x){
+        console.log(x);
+    }else console.log(false);
+      
+      //     3
+     var file = prompt('please enter you\'r','prog.exe');
+    var numb = file.indexOf('.');
+    console.log(file.slice(numb));
+      
+      //      4
+      
+    var str = "border-left-width";
+    var str1 = str.replace('left','Left');
+    var str2 = str1.replace('width','Width');
+    var str3 = str2.replace(/-/g,'');
+    console.log(str3);
+
+          
+    
+
+      
+      
+   
+      
+    
+    
+    
+    
+  </script>  
+    
+</body>
+</html>

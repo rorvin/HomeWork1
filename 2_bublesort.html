@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+\<meta charset="UTF-8">
+
+</head>
+<body>
+  <script>
+    
+        
+       var arr = [2, 45, -5, 16, -90, 72, -5, 14, -22];
+       var n;
+       console.log("start:  " + arr);
+      
+      for(var j = 0; j < arr.length; j++){
+        for(var i = 0; i < arr.length - 1; i++){            
+          if(arr[i] > arr[i+1]){
+              n = arr[i];
+              arr[i] = arr[i+1];
+              arr[i+1] = n;
+          }
+        }
+      }
+      console.log("new cikle:  " + arr);
+      
+      
+      
+      
+      
+
+    
+    
+  </script>  
+    
+</body>
+</html>

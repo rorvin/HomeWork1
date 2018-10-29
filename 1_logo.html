@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+  <script>
+            //1
+    var verno = -3;//+prompt("type a","3");
+      
+      if(verno == 0){
+      console.log("verno");  //alert('verno');
+      }else { 
+      console.log("neverno");   //alert('neverno');
+      }
+      
+            //2,4
+      var more = 1;
+      
+      if(more >= 0){
+          console.log('verno');
+      } else {console.log('neverno');
+             }
+    
+      
+            //3,5
+      var less = 0;
+      if (less <= 0){
+          console.log('verno');
+      } else {
+          console.log('neverno');
+      }
+      
+            //6
+      var notZero = 0;
+      if(notZero !== 0){
+          console.log('verno');
+      } else {
+          console.log('neverno');
+      }
+      
+            //7
+      var text = 'tes';
+      if(text == 'test'){
+          console.log('verno');
+      } else{
+          console.log("neverno");
+      }
+      
+            //8
+      var type = '1';
+      if(type === '1'){
+          console.log('verno8');
+      }else{
+          console.log('neverno8');
+      }
+            //9
+      var logoTrue = true;
+      if(logoTrue == true){
+          console.log('da');
+      } else {
+          console.log('ne');
+      }
+      logoTrue == true ? console.log('verno'): console.log('neverno');
+      
+      
+            // || && 1
+      
+      var and1 = 2;
+      if(and1 > 0 && and1 < 5){
+          console.log("yes");
+      } else {
+          console.log("no");
+      }
+      
+            //2
+      var or1 = 5;
+      if(or1 == 0 || or1 == 2){
+          or1 += 7;
+          console.log(or1);
+      } else{
+            or1 /=10;
+          console.log(or1);
+      }
+      
+            //3
+      var or2 = 3;
+      var and2 = 5;
+      var rezult2 ;
+      if(or2 <= 1 && and2 >=3) {
+          rezult2 = or2 + and2;
+          console.log(rezult2);
+      }else{
+          rezult2 = or2 - and2;
+          console.log(rezult2);
+      }
+      
+            //4
+      var a4 = 1;
+      var b4 = 5;
+      if(a4 > 2 && a4 < 11 || b4 >= 6 && b4 < 14){
+          console.log('verno');
+      }else {
+          console.log('neverno');
+      }
+                // swich case 
+//      var nam1 = prompt('введите число от 1 до 4 ',3);
+//      switch(nam1){
+//          case '1': console.log('Winter');
+//              break;
+//          case '2': console.log('spring');
+//              break;
+//          case '3': console.log('summer');
+//              break;
+//          case '4': console.log('autumn');
+//              break;
+//          default: console.log('unknown');        
+//      }
+      
+      
+            // 2
+//      var day1 = +prompt('number',5);
+//      switch(day1){
+//          case 1:
+//          case 2:
+//          case 3:
+//          case 4:
+//          case 5:
+//          case 6:
+//          case 7:
+//          case 8:
+//          case 9:
+//          case 10: console.log('first decade');
+//                break;
+//          case 11:
+//          case 12:
+//          case 13:
+//          case 14:
+//          case 15:
+//          case 16:
+//          case 17:
+//          case 18:
+//          case 19:
+//          case 20: console.log('second decade');
+//              break;
+//          case 21:
+//          case 22:
+//          case 23:
+//          case 24:
+//          case 25:
+//          case 26:
+//          case 27:
+//          case 28:
+//          case 29:
+//          case 30: console.log('third decade');
+//              break;
+//          case 31: console.log('fourth decade');
+//              break;
+//          default: console.log('not exist');
+//      }
+//      if(day1 >=1 && day1 <=10){
+//          console.log('first decade');
+//      } else if(day1 >= 11 && day1 <=20){
+//          console.log('second decade');
+//      }else if(day1 >= 21 && day1 <= 30){
+//          console.log('third decade');
+//      }else if(day1 == 31){
+//          console.log('fourth decade');
+//      } else {
+//          console.log('not exist');
+//      }
+      
+            //3
+      var month = 3;
+//      switch(month){
+//          case 1:
+//          case 2:
+//          case 12:
+//              console.log('winter');
+//            break;
+//          case 3:
+//          case 4:
+//          case 5:
+//              console.log('spring');
+//            break;
+//          case 6:
+//          case 7:
+//          case 8:
+//              console.log('summer');
+//            break;
+//          case 9:
+//          case 10:
+//          case 11: 
+//              console.log("autumn");
+//            break;
+//          default: console.log('unknown');
+//      }
+      if(month == 1 || month == 2 || month == 12){
+          console.log('winter');
+      }else if(month == 3 || month == 4 || month == 5){
+          console.log('spring ');
+      }else if(month == 6 || month == 7 || month == 8){
+          console.log('summer');
+      } else if(month == 9 || month == 10 || month == 11){
+          console.log('autumn');
+      }else {
+          console.log('not iiiii');
+      }
+      
+            //string 1
+      var str1 = 'abcde';
+      if(str1.charAt(0) == "a"){
+          console.log("da \n a");
+      }else {
+          console.log("net");
+      }
+      
+            //2
+      var str2 = '12345';
+      if(str2[0] == 1 || str2[0] == 2 || str2[0] == 3){
+          console.log('da!! It\'s ok');
+      }else {
+          console.log('no');
+      }
+            //3
+      var str3 = '458';
+      var sumString = 0;
+      for(i = 0; i < 3; i++){
+          sumString += +str3.charAt(i);
+          
+      }
+      console.log(sumString);
+      
+            //4
+      var str4 = '344344';
+      var sumString1 = 0;
+      var sumString2 = 0;
+      for(i = 0; i < 3; i++){
+          sumString1 += +str4.charAt(i);         
+      } 
+      for( j = 3; j < 6; j++){         
+          sumString2 += +str4.charAt(j);
+      }if(sumString1 == sumString2){
+          console.log("are equal");
+      } else {
+          console.log("not equal");
+      }
+      
+      
+      
+      
+      
+      
+      
+    </script>
+    
+    </body>
+</html>
